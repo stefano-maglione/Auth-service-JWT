@@ -1,0 +1,196 @@
+2025-01-25T00:06:16.174+01:00  INFO 20416 --- [auth-service] [main] c.m.a.AuthServiceApplicationTests        : Starting AuthServiceApplicationTests using Java 22.0.1 with PID 20416 (started by stefanomaglione in /Users/stefanomaglione/Desktop/Enshift/auth-service)
+2025-01-25T00:06:16.184+01:00  INFO 20416 --- [auth-service] [main] c.m.a.AuthServiceApplicationTests        : The following 1 profile is active: "test"
+2025-01-25T00:06:16.777+01:00  INFO 20416 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T00:06:16.829+01:00  INFO 20416 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2025-01-25T00:06:17.268+01:00  INFO 20416 --- [auth-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T00:06:17.344+01:00  INFO 20416 --- [auth-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-25T00:06:17.385+01:00  INFO 20416 --- [auth-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T00:06:17.714+01:00  INFO 20416 --- [auth-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T00:06:17.743+01:00  INFO 20416 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-25T00:06:17.951+01:00  INFO 20416 --- [auth-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-25T00:06:17.953+01:00  INFO 20416 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-25T00:06:17.981+01:00  WARN 20416 --- [auth-service] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T00:06:18.000+01:00  INFO 20416 --- [auth-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-25T00:06:18.861+01:00  INFO 20416 --- [auth-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T00:06:18.911+01:00  INFO 20416 --- [auth-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:06:19.254+01:00  INFO 20416 --- [auth-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customerUserDetailsService
+2025-01-25T00:06:19.315+01:00  WARN 20416 --- [auth-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T00:06:19.850+01:00  INFO 20416 --- [auth-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-25T00:06:19.988+01:00  INFO 20416 --- [auth-service] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-25T00:06:20.054+01:00  INFO 20416 --- [auth-service] [main] c.m.a.AuthServiceApplicationTests        : Started AuthServiceApplicationTests in 4.265 seconds (process running for 7.942)
+2025-01-25T00:06:21.257+01:00  INFO 20416 --- [auth-service] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.maglione.auth_service.DatabaseConnectionTest]: DatabaseConnectionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-25T00:06:21.266+01:00  INFO 20416 --- [auth-service] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.maglione.auth_service.AuthServiceApplication for test class com.maglione.auth_service.DatabaseConnectionTest
+2025-01-25T00:06:21.297+01:00  INFO 20416 --- [auth-service] [main] c.m.auth_service.DatabaseConnectionTest  : Starting DatabaseConnectionTest using Java 22.0.1 with PID 20416 (started by stefanomaglione in /Users/stefanomaglione/Desktop/Enshift/auth-service)
+2025-01-25T00:06:21.297+01:00  INFO 20416 --- [auth-service] [main] c.m.auth_service.DatabaseConnectionTest  : The following 1 profile is active: "test"
+2025-01-25T00:06:21.456+01:00  INFO 20416 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T00:06:21.470+01:00  INFO 20416 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2025-01-25T00:06:21.573+01:00  INFO 20416 --- [auth-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T00:06:21.578+01:00  INFO 20416 --- [auth-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T00:06:21.590+01:00  INFO 20416 --- [auth-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T00:06:21.592+01:00  INFO 20416 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-01-25T00:06:21.593+01:00  INFO 20416 --- [auth-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2025-01-25T00:06:21.593+01:00  INFO 20416 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-01-25T00:06:21.594+01:00  WARN 20416 --- [auth-service] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T00:06:21.595+01:00  INFO 20416 --- [auth-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-25T00:06:21.673+01:00  INFO 20416 --- [auth-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T00:06:21.683+01:00  INFO 20416 --- [auth-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:06:21.722+01:00  INFO 20416 --- [auth-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customerUserDetailsService
+2025-01-25T00:06:21.743+01:00  WARN 20416 --- [auth-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T00:06:21.854+01:00  INFO 20416 --- [auth-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-25T00:06:21.884+01:00  INFO 20416 --- [auth-service] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-25T00:06:21.909+01:00  INFO 20416 --- [auth-service] [main] c.m.auth_service.DatabaseConnectionTest  : Started DatabaseConnectionTest in 0.639 seconds (process running for 9.796)
+2025-01-25T00:06:22.287+01:00  INFO 20416 --- [auth-service] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.maglione.auth_service.AuthenticationTests]: AuthenticationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-25T00:06:22.292+01:00  INFO 20416 --- [auth-service] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.maglione.auth_service.AuthServiceApplication for test class com.maglione.auth_service.AuthenticationTests
+2025-01-25T00:06:22.318+01:00  INFO 20416 --- [auth-service] [main] c.m.auth_service.AuthenticationTests     : Starting AuthenticationTests using Java 22.0.1 with PID 20416 (started by stefanomaglione in /Users/stefanomaglione/Desktop/Enshift/auth-service)
+2025-01-25T00:06:22.319+01:00  INFO 20416 --- [auth-service] [main] c.m.auth_service.AuthenticationTests     : The following 1 profile is active: "test"
+2025-01-25T00:06:22.537+01:00  INFO 20416 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T00:06:22.556+01:00  INFO 20416 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2025-01-25T00:06:22.688+01:00  INFO 20416 --- [auth-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T00:06:22.691+01:00  INFO 20416 --- [auth-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T00:06:22.703+01:00  INFO 20416 --- [auth-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T00:06:22.704+01:00  INFO 20416 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-01-25T00:06:22.705+01:00  INFO 20416 --- [auth-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:testdb user=SA
+2025-01-25T00:06:22.706+01:00  INFO 20416 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-01-25T00:06:22.706+01:00  WARN 20416 --- [auth-service] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T00:06:22.707+01:00  INFO 20416 --- [auth-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-25T00:06:22.776+01:00  INFO 20416 --- [auth-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T00:06:22.786+01:00  INFO 20416 --- [auth-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:06:22.824+01:00  INFO 20416 --- [auth-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customerUserDetailsService
+2025-01-25T00:06:22.850+01:00  WARN 20416 --- [auth-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T00:06:22.950+01:00  INFO 20416 --- [auth-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-25T00:06:22.978+01:00  INFO 20416 --- [auth-service] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-25T00:06:23.042+01:00  INFO 20416 --- [auth-service] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-01-25T00:06:23.042+01:00  INFO 20416 --- [auth-service] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-01-25T00:06:23.044+01:00  INFO 20416 --- [auth-service] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-01-25T00:06:23.058+01:00  INFO 20416 --- [auth-service] [main] c.m.auth_service.AuthenticationTests     : Started AuthenticationTests in 0.762 seconds (process running for 10.946)
+2025-01-25T00:06:27.244+01:00  INFO 20416 --- [auth-service] [main] c.m.a.security.JwtAuthenticationFilter   : authenticated user with email :admin@gmail.com
+2025-01-25T00:06:27.772+01:00  INFO 20416 --- [auth-service] [main] c.m.auth_service.security.JwtUtilities   : Expired JWT token.
+2025-01-25T00:06:28.292+01:00  INFO 20416 --- [auth-service] [main] c.m.auth_service.security.JwtUtilities   : Fingerprint mismatch detected. Possible session hijacking attempt.
+2025-01-25T00:06:28.310+01:00  INFO 20416 --- [auth-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:06:28.313+01:00  INFO 20416 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-25T00:06:28.315+01:00  INFO 20416 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-25T00:06:28.317+01:00  INFO 20416 --- [auth-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:06:28.318+01:00  INFO 20416 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-01-25T00:06:28.318+01:00  INFO 20416 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-01-25T00:06:28.320+01:00  INFO 20416 --- [auth-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:06:28.321+01:00  INFO 20416 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-01-25T00:06:28.322+01:00  INFO 20416 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-01-25T00:13:49.306+01:00  INFO 21117 --- [auth-service] [main] c.m.a.AuthServiceApplicationTests        : Starting AuthServiceApplicationTests using Java 22.0.1 with PID 21117 (started by stefanomaglione in /Users/stefanomaglione/Desktop/Enshift/auth-service)
+2025-01-25T00:13:49.309+01:00  INFO 21117 --- [auth-service] [main] c.m.a.AuthServiceApplicationTests        : The following 1 profile is active: "test"
+2025-01-25T00:13:50.170+01:00  INFO 21117 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T00:13:50.233+01:00  INFO 21117 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-01-25T00:13:50.677+01:00  INFO 21117 --- [auth-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T00:13:50.750+01:00  INFO 21117 --- [auth-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-25T00:13:50.785+01:00  INFO 21117 --- [auth-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T00:13:51.098+01:00  INFO 21117 --- [auth-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T00:13:51.128+01:00  INFO 21117 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-25T00:13:51.330+01:00  INFO 21117 --- [auth-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-25T00:13:51.332+01:00  INFO 21117 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-25T00:13:51.358+01:00  WARN 21117 --- [auth-service] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T00:13:51.376+01:00  INFO 21117 --- [auth-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-25T00:13:52.253+01:00  INFO 21117 --- [auth-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T00:13:52.313+01:00  INFO 21117 --- [auth-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:13:52.669+01:00  INFO 21117 --- [auth-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customerUserDetailsService
+2025-01-25T00:13:52.733+01:00  WARN 21117 --- [auth-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T00:13:53.207+01:00  INFO 21117 --- [auth-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-25T00:13:53.338+01:00  INFO 21117 --- [auth-service] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-25T00:13:53.406+01:00  INFO 21117 --- [auth-service] [main] c.m.a.AuthServiceApplicationTests        : Started AuthServiceApplicationTests in 4.608 seconds (process running for 5.696)
+2025-01-25T00:13:54.534+01:00  INFO 21117 --- [auth-service] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.maglione.auth_service.DatabaseConnectionTest]: DatabaseConnectionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-25T00:13:54.542+01:00  INFO 21117 --- [auth-service] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.maglione.auth_service.AuthServiceApplication for test class com.maglione.auth_service.DatabaseConnectionTest
+2025-01-25T00:13:54.571+01:00  INFO 21117 --- [auth-service] [main] c.m.auth_service.DatabaseConnectionTest  : Starting DatabaseConnectionTest using Java 22.0.1 with PID 21117 (started by stefanomaglione in /Users/stefanomaglione/Desktop/Enshift/auth-service)
+2025-01-25T00:13:54.571+01:00  INFO 21117 --- [auth-service] [main] c.m.auth_service.DatabaseConnectionTest  : The following 1 profile is active: "test"
+2025-01-25T00:13:54.728+01:00  INFO 21117 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T00:13:54.739+01:00  INFO 21117 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2025-01-25T00:13:54.838+01:00  INFO 21117 --- [auth-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T00:13:54.839+01:00  INFO 21117 --- [auth-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T00:13:54.847+01:00  INFO 21117 --- [auth-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T00:13:54.847+01:00  INFO 21117 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-01-25T00:13:54.848+01:00  INFO 21117 --- [auth-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2025-01-25T00:13:54.848+01:00  INFO 21117 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-01-25T00:13:54.849+01:00  WARN 21117 --- [auth-service] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T00:13:54.849+01:00  INFO 21117 --- [auth-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-25T00:13:54.896+01:00  INFO 21117 --- [auth-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T00:13:54.903+01:00  INFO 21117 --- [auth-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:13:54.934+01:00  INFO 21117 --- [auth-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customerUserDetailsService
+2025-01-25T00:13:54.953+01:00  WARN 21117 --- [auth-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T00:13:55.046+01:00  INFO 21117 --- [auth-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-25T00:13:55.072+01:00  INFO 21117 --- [auth-service] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-25T00:13:55.093+01:00  INFO 21117 --- [auth-service] [main] c.m.auth_service.DatabaseConnectionTest  : Started DatabaseConnectionTest in 0.548 seconds (process running for 7.383)
+2025-01-25T00:13:55.418+01:00  INFO 21117 --- [auth-service] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.maglione.auth_service.AuthenticationTests]: AuthenticationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-25T00:13:55.421+01:00  INFO 21117 --- [auth-service] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.maglione.auth_service.AuthServiceApplication for test class com.maglione.auth_service.AuthenticationTests
+2025-01-25T00:13:55.440+01:00  INFO 21117 --- [auth-service] [main] c.m.auth_service.AuthenticationTests     : Starting AuthenticationTests using Java 22.0.1 with PID 21117 (started by stefanomaglione in /Users/stefanomaglione/Desktop/Enshift/auth-service)
+2025-01-25T00:13:55.441+01:00  INFO 21117 --- [auth-service] [main] c.m.auth_service.AuthenticationTests     : The following 1 profile is active: "test"
+2025-01-25T00:13:55.565+01:00  INFO 21117 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T00:13:55.575+01:00  INFO 21117 --- [auth-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2025-01-25T00:13:55.665+01:00  INFO 21117 --- [auth-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T00:13:55.666+01:00  INFO 21117 --- [auth-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T00:13:55.674+01:00  INFO 21117 --- [auth-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T00:13:55.675+01:00  INFO 21117 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-01-25T00:13:55.676+01:00  INFO 21117 --- [auth-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:testdb user=SA
+2025-01-25T00:13:55.676+01:00  INFO 21117 --- [auth-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-01-25T00:13:55.676+01:00  WARN 21117 --- [auth-service] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T00:13:55.677+01:00  INFO 21117 --- [auth-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-25T00:13:55.719+01:00  INFO 21117 --- [auth-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T00:13:55.725+01:00  INFO 21117 --- [auth-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:13:55.750+01:00  INFO 21117 --- [auth-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customerUserDetailsService
+2025-01-25T00:13:55.767+01:00  WARN 21117 --- [auth-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T00:13:55.846+01:00  INFO 21117 --- [auth-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-25T00:13:55.869+01:00  INFO 21117 --- [auth-service] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-25T00:13:55.927+01:00  INFO 21117 --- [auth-service] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-01-25T00:13:55.927+01:00  INFO 21117 --- [auth-service] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-01-25T00:13:55.929+01:00  INFO 21117 --- [auth-service] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-01-25T00:13:55.940+01:00  INFO 21117 --- [auth-service] [main] c.m.auth_service.AuthenticationTests     : Started AuthenticationTests in 0.517 seconds (process running for 8.229)
+2025-01-25T00:13:59.874+01:00  INFO 21117 --- [auth-service] [main] c.m.a.security.JwtAuthenticationFilter   : authenticated user with email :admin@gmail.com
+2025-01-25T00:14:00.427+01:00  INFO 21117 --- [auth-service] [main] c.m.auth_service.security.JwtUtilities   : Expired JWT token.
+2025-01-25T00:14:00.955+01:00  INFO 21117 --- [auth-service] [main] c.m.auth_service.security.JwtUtilities   : Fingerprint mismatch detected. Possible session hijacking attempt.
+2025-01-25T00:14:00.972+01:00  INFO 21117 --- [auth-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:14:00.976+01:00  INFO 21117 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-25T00:14:00.977+01:00  INFO 21117 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-25T00:14:00.979+01:00  INFO 21117 --- [auth-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:14:00.980+01:00  INFO 21117 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-01-25T00:14:00.981+01:00  INFO 21117 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-01-25T00:14:00.982+01:00  INFO 21117 --- [auth-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:14:00.983+01:00  INFO 21117 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-01-25T00:14:00.984+01:00  INFO 21117 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: auth-service
+    image: auth-service:latest
+    ports:
+      - "8087:8087"
+    command: [ "java", "-jar", "app.jar" ]
+    restart: unless-stopped
