@@ -76,7 +76,7 @@ secure API access.
 
    ```bash
    git clone git@github.com:stefano-maglione/Auth-service-JWT.git
-   cd auth-service-backend
+   cd Auth-service-JWT
    ```
 
 ### Running with Docker Compose
